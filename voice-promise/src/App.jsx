@@ -1,9 +1,9 @@
-import './App.css'
+import './index.css'
 
 function App() {
   return (
     <>
-      <h1>Testing</h1>
+      <h1 className='bg-red-400'>Testing</h1>
     </>
   )
 }
