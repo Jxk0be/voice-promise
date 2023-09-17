@@ -8,14 +8,16 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <About />
-      <Contact />
-      <Map />
-      <Footer />
-    </>
+    <div className='w-screen flex justify-center'>
+      <div className='max-w-[1500px] w-full'>
+        <Navbar />
+        <Hero />
+        <About />
+        <Contact />
+        <Map />
+        <Footer />
+      </div>
+    </div>
   )
 }
 
