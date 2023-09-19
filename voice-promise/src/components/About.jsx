@@ -1,6 +1,8 @@
 const About = () => {
   return (
-    <div>About</div>
+    <div className="w-full h-screen bg-blue-100 pt-[50px]">
+      About
+    </div>
   )
 }
 

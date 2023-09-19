@@ -1,6 +1,8 @@
 const Map = () => {
   return (
-    <div>Map</div>
+    <div className="w-full h-screen bg-yellow-100 pt-[50px]">
+      Map
+    </div>
   )
 }
 

@@ -15,3 +15,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.centered {
+  transform: translate(calc(50vw - 50%));
+}
+
+.drop {
+  filter: drop-shadow(0px 4px 2px #0e0e0e81);
+}
+
+.nav {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  }

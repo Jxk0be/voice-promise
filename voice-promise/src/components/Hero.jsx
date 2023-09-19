@@ -1,6 +1,8 @@
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <div className="w-full h-screen bg-red-50">
+      Hero
+    </div>
   )
 }
 
